@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barkha Sharma | Meta Ads Specialist &amp; Performance Marketing Expert</title>
+<meta name="description" content="Barkha Sharma — Meta Ads Specialist &amp; Performance Marketing Expert. Helping businesses generate high quality leads with Facebook &amp; Instagram Ads across Real Estate, Education, Healthcare, Travel, Banking, Beauty &amp; E-commerce.">
+
+<!-- ===================== FONTS & ICONS ===================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- ===================== AOS SCROLL ANIMATIONS ===================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<!-- ===================== SWIPER (TESTIMONIALS) ===================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+
+<!-- ===================== CUSTOM STYLES ===================== -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== SCROLL PROGRESS BAR ===================== -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ===================== PRELOADER ===================== -->
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">
+    <span class="preloader-ring"></span>
+    <span class="preloader-initials">BS</span>
+  </div>
+</div>
+
+<!-- ===================== STICKY NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">BS</span>
+      <span class="brand-text">Barkha<em>Sharma</em></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#case-studies" class="nav-link">Case Studies</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#tools" class="nav-link">Tools</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="grid-overlay"></span>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="900">
+        <p class="eyebrow"><i class="fa-solid fa-bolt"></i> Meta Business Partner-Level Expertise</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Barkha Sharma</span>
+        </h1>
+        <p class="hero-role">
+          <span class="role-rotator" id="roleRotator">Meta Ads Specialist</span>
+        </p>
+        <p class="hero-tagline">Helping businesses generate high quality leads with Facebook &amp; Instagram Ads.</p>
+
+        <div class="hero-cta">
+          <a href="tel:+911234567890" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Now</a>
+          <a href="https://wa.me/911234567890" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-count="8" data-suffix="+">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="500" data-suffix="+">0</span>
+            <span class="stat-label">Campaigns Managed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="15" data-suffix="+">0</span>
+            <span class="stat-label">Industries Served</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="95" data-suffix="%">0</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+        <div class="hero-photo-frame">
+          <div class="hero-photo">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <span class="photo-ring"></span>
+        </div>
+
+        <!-- Signature element: live ad-performance dashboard card -->
+        <div class="dash-card dash-card-1">
+          <div class="dash-card-head">
+            <i class="fa-brands fa-meta"></i>
+            <span>Campaign Health</span>
+            <span class="dash-live">LIVE</span>
+          </div>
+          <div class="dash-metric">
+            <span class="dash-metric-label">ROAS</span>
+            <span class="dash-metric-value" id="roasValue">4.8x</span>
+            <span class="dash-metric-trend up"><i class="fa-solid fa-arrow-trend-up"></i> 12%</span>
+          </div>
+          <div class="dash-bars">
+            <span style="--h:40%"></span><span style="--h:65%"></span><span style="--h:50%"></span>
+            <span style="--h:80%"></span><span style="--h:70%"></span><span style="--h:95%"></span>
+          </div>
+        </div>
+
+        <div class="dash-card dash-card-2">
+          <i class="fa-solid fa-users"></i>
+          <div>
+            <span class="dash-card-2-value">1,04,382</span>
+            <span class="dash-card-2-label">Leads Generated</span>
+          </div>
+        </div>
+
+        <div class="dash-card dash-card-3">
+          <i class="fa-solid fa-arrow-down-long"></i>
+          <div>
+            <span class="dash-card-3-value">↓ 38%</span>
+            <span class="dash-card-3-label">Cost Per Lead</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual" data-aos="fade-right">
+        <div class="about-photo">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="about-badge">
+          <i class="fa-solid fa-award"></i>
+          <span>Meta Certified Media Buyer</span>
+        </div>
+      </div>
+
+      <div class="about-content" data-aos="fade-left">
+        <p class="section-eyebrow">About Me</p>
+        <h2 class="section-title">About Barkha Sharma</h2>
+        <p class="about-text">
+          Digital Marketing Professional with <strong>8+ years of experience</strong> in Meta Ads, Lead Generation,
+          CRM Marketing, Audience Targeting, Retargeting, Meta Pixel, Conversion Tracking and Performance Marketing.
+          I build data-driven ad ecosystems that turn ad spend into predictable, qualified pipeline &mdash; not just clicks.
+        </p>
+
+        <div class="industry-chips">
+          <span><i class="fa-solid fa-building"></i> Real Estate</span>
+          <span><i class="fa-solid fa-graduation-cap"></i> Education</span>
+          <span><i class="fa-solid fa-heart-pulse"></i> Healthcare</span>
+          <span><i class="fa-solid fa-plane"></i> Travel</span>
+          <span><i class="fa-solid fa-building-columns"></i> Banking</span>
+          <span><i class="fa-solid fa-spa"></i> Beauty</span>
+          <span><i class="fa-solid fa-cart-shopping"></i> E-commerce</span>
+        </div>
+
+        <a href="#contact" class="btn btn-outline">Let's Work Together <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE TIMELINE ===================== -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Experience</p>
+        <h2 class="section-title">8+ Years of Growth-Focused Marketing</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"><i class="fa-brands fa-facebook"></i></div>
+          <div class="timeline-card">
+            <h3>Meta Ads</h3>
+            <p>End-to-end campaign strategy, setup and scaling across Facebook &amp; Instagram.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-dot"><i class="fa-solid fa-filter"></i></div>
+          <div class="timeline-card">
+            <h3>Lead Generation</h3>
+            <p>High-intent lead funnels built for cost efficiency and lead quality.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-dot"><i class="fa-solid fa-address-book"></i></div>
+          <div class="timeline-card">
+            <h3>CRM Marketing</h3>
+            <p>Lifecycle nurturing that connects ad leads to sales-ready conversations.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-dot"><i class="fa-solid fa-gauge-high"></i></div>
+          <div class="timeline-card">
+            <h3>Performance Marketing</h3>
+            <p>ROAS-first optimisation across the full paid media stack.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="timeline-dot"><i class="fa-brands fa-google"></i></div>
+          <div class="timeline-card">
+            <h3>Google Analytics</h3>
+            <p>Funnel and attribution analysis that tells the real story behind spend.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="timeline-dot"><i class="fa-solid fa-crosshairs"></i></div>
+          <div class="timeline-card">
+            <h3>Meta Pixel</h3>
+            <p>Precision tracking and conversion API setup for reliable optimisation signals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Services</p>
+        <h2 class="section-title">What I Can Do For Your Business</h2>
+      </div>
+
+      <div class="grid grid-5">
+        <div class="service-card" data-aos="fade-up"><i class="fa-solid fa-bullseye"></i><h3>Lead Generation</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="50"><i class="fa-solid fa-rocket"></i><h3>Meta Ads Campaign Setup</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100"><i class="fa-solid fa-magnifying-glass-chart"></i><h3>Audience Research</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="150"><i class="fa-solid fa-code"></i><h3>Meta Pixel Setup</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200"><i class="fa-solid fa-chart-line"></i><h3>Conversion Tracking</h3></div>
+        <div class="service-card" data-aos="fade-up"><i class="fa-solid fa-arrow-rotate-left"></i><h3>Remarketing</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="50"><i class="fa-solid fa-people-group"></i><h3>Lookalike Audience</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100"><i class="fa-solid fa-sliders"></i><h3>Campaign Optimization</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="150"><i class="fa-solid fa-chart-simple"></i><h3>ROAS Improvement</h3></div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200"><i class="fa-solid fa-file-invoice"></i><h3>Performance Reporting</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CASE STUDIES ===================== -->
+  <section class="case-studies" id="case-studies">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Case Studies</p>
+        <h2 class="section-title">Results Across Industries</h2>
+      </div>
+
+      <div class="grid grid-3 case-grid">
+
+        <div class="case-card" data-aos="fade-up">
+          <span class="case-tag"><i class="fa-solid fa-building"></i> Real Estate</span>
+          <h3>Lead Generation &amp; Retargeting</h3>
+          <ul><li>Lower CPL</li><li>Higher Quality Leads</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="50">
+          <span class="case-tag"><i class="fa-solid fa-building-columns"></i> Banking</span>
+          <h3>Loan &amp; Credit Card Campaigns</h3>
+          <ul><li>Location Targeting</li><li>Remarketing</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="100">
+          <span class="case-tag"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+          <h3>Admission Lead Campaigns</h3>
+          <ul><li>Video Ads</li><li>Lead Forms</li><li>Remarketing</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up">
+          <span class="case-tag"><i class="fa-solid fa-school"></i> University</span>
+          <h3>Admissions Campaign</h3>
+          <ul><li>Story Ads</li><li>Retargeting</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="50">
+          <span class="case-tag"><i class="fa-solid fa-plane"></i> Travel</span>
+          <h3>Seasonal Booking Campaign</h3>
+          <ul><li>Video Campaign</li><li>Carousel Ads</li><li>Booking Leads</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="100">
+          <span class="case-tag"><i class="fa-solid fa-tooth"></i> Healthcare</span>
+          <h3>Dental Clinic Appointments</h3>
+          <ul><li>Appointment Campaign</li><li>Local Targeting</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up">
+          <span class="case-tag"><i class="fa-solid fa-spa"></i> Beauty Salon</span>
+          <h3>Reels &amp; Offer Promotion</h3>
+          <ul><li>Instagram Reels</li><li>Local Ads</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="50">
+          <span class="case-tag"><i class="fa-solid fa-shield-check"></i> Verified Leads</span>
+          <h3>OTP Verified Lead Campaign</h3>
+          <ul><li>Lead Forms</li><li>OTP Verification</li><li>Reduced Fake Leads</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up" data-aos-delay="100">
+          <span class="case-tag"><i class="fa-solid fa-cart-shopping"></i> E-commerce</span>
+          <h3>Catalog &amp; Dynamic Ads</h3>
+          <ul><li>Catalog Ads</li><li>Higher ROAS</li></ul>
+        </div>
+
+        <div class="case-card" data-aos="fade-up">
+          <span class="case-tag"><i class="fa-solid fa-eye"></i> Brand Awareness</span>
+          <h3>Reach &amp; Engagement Campaign</h3>
+          <ul><li>Video Views</li><li>Engagement Campaign</li></ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CORE SKILLS ===================== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Core Skills</p>
+        <h2 class="section-title">Tools of the Trade</h2>
+      </div>
+
+      <div class="grid grid-4 skills-grid">
+        <div class="skill-card" data-aos="zoom-in"><i class="fa-brands fa-facebook"></i><span>Facebook Ads</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="50"><i class="fa-brands fa-instagram"></i><span>Instagram Ads</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100"><i class="fa-solid fa-briefcase"></i><span>Meta Business Manager</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150"><i class="fa-solid fa-bullseye"></i><span>Lead Generation</span></div>
+        <div class="skill-card" data-aos="zoom-in"><i class="fa-solid fa-flask"></i><span>A/B Testing</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="50"><i class="fa-solid fa-crosshairs"></i><span>Meta Pixel</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100"><i class="fa-solid fa-user-group"></i><span>Custom Audience</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150"><i class="fa-solid fa-people-group"></i><span>Lookalike Audience</span></div>
+        <div class="skill-card" data-aos="zoom-in"><i class="fa-solid fa-arrow-rotate-left"></i><span>Retargeting</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="50"><i class="fa-solid fa-plug"></i><span>Conversion API</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100"><i class="fa-solid fa-chart-pie"></i><span>Analytics</span></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150"><i class="fa-solid fa-arrow-up-right-dots"></i><span>Campaign Scaling</span></div>
+      </div>
+
+      <!-- Industries Served -->
+      <div class="section-head industries-head" data-aos="fade-up">
+        <p class="section-eyebrow">Industries Served</p>
+        <h2 class="section-title">Trusted Across Sectors</h2>
+      </div>
+      <div class="grid grid-4 industries-grid">
+        <div class="industry-card" data-aos="fade-up"><i class="fa-solid fa-building"></i><span>Real Estate</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="50"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="100"><i class="fa-solid fa-heart-pulse"></i><span>Healthcare</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="150"><i class="fa-solid fa-plane"></i><span>Travel</span></div>
+        <div class="industry-card" data-aos="fade-up"><i class="fa-solid fa-building-columns"></i><span>Banking</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="50"><i class="fa-solid fa-spa"></i><span>Beauty</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="100"><i class="fa-solid fa-cart-shopping"></i><span>E-commerce</span></div>
+        <div class="industry-card" data-aos="fade-up" data-aos-delay="150"><i class="fa-solid fa-sack-dollar"></i><span>Finance</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TOOLS ===================== -->
+  <section class="tools" id="tools">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Tools I Use</p>
+        <h2 class="section-title">My Marketing Stack</h2>
+      </div>
+      <div class="tools-marquee" data-aos="fade-up">
+        <div class="tools-track">
+          <span><i class="fa-brands fa-meta"></i> Meta Ads Manager</span>
+          <span><i class="fa-solid fa-briefcase"></i> Business Suite</span>
+          <span><i class="fa-solid fa-crosshairs"></i> Meta Pixel</span>
+          <span><i class="fa-brands fa-google"></i> Google Analytics 4</span>
+          <span><i class="fa-solid fa-tags"></i> Google Tag Manager</span>
+          <span><i class="fa-solid fa-palette"></i> Canva</span>
+          <span><i class="fa-solid fa-address-book"></i> CRM</span>
+          <span><i class="fa-solid fa-table-cells"></i> Excel</span>
+          <!-- duplicate set for seamless marquee loop -->
+          <span><i class="fa-brands fa-meta"></i> Meta Ads Manager</span>
+          <span><i class="fa-solid fa-briefcase"></i> Business Suite</span>
+          <span><i class="fa-solid fa-crosshairs"></i> Meta Pixel</span>
+          <span><i class="fa-brands fa-google"></i> Google Analytics 4</span>
+          <span><i class="fa-solid fa-tags"></i> Google Tag Manager</span>
+          <span><i class="fa-solid fa-palette"></i> Canva</span>
+          <span><i class="fa-solid fa-address-book"></i> CRM</span>
+          <span><i class="fa-solid fa-table-cells"></i> Excel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ACHIEVEMENTS / COUNTERS ===================== -->
+  <section class="achievements">
+    <div class="container grid grid-4 achievements-grid">
+      <div class="achievement" data-aos="fade-up">
+        <span class="achievement-number" data-count="8" data-suffix="+">0</span>
+        <span class="achievement-label">Years Experience</span>
+      </div>
+      <div class="achievement" data-aos="fade-up" data-aos-delay="100">
+        <span class="achievement-number" data-count="500" data-suffix="+">0</span>
+        <span class="achievement-label">Campaigns</span>
+      </div>
+      <div class="achievement" data-aos="fade-up" data-aos-delay="200">
+        <span class="achievement-number" data-count="100000" data-suffix="+">0</span>
+        <span class="achievement-label">Leads Generated</span>
+      </div>
+      <div class="achievement" data-aos="fade-up" data-aos-delay="300">
+        <span class="achievement-number" data-count="15" data-suffix="+">0</span>
+        <span class="achievement-label">Industries</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">Testimonials</p>
+        <h2 class="section-title">What Clients Say</h2>
+      </div>
+
+      <div class="swiper testimonial-swiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>Our cost per lead dropped significantly within the first month, and lead quality actually improved. Barkha understands real estate buyers.</p>
+              <div class="testimonial-author">
+                <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                <div><strong>Real Estate Developer</strong><span>Delhi NCR</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>Admissions season used to be stressful. With her lead form and remarketing setup, our counsellors finally had a full, qualified pipeline.</p>
+              <div class="testimonial-author">
+                <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                <div><strong>Education Institute Head</strong><span>North India</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>Sharp on Meta Pixel and conversion tracking &mdash; the kind of clarity in reporting that lets us actually trust our ROAS numbers.</p>
+              <div class="testimonial-author">
+                <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                <div><strong>E-commerce Founder</strong><span>India</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>The OTP-verified lead campaign cut our fake leads to almost zero. Our sales team finally trusts the leads coming in.</p>
+              <div class="testimonial-author">
+                <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                <div><strong>Clinic Owner</strong><span>Healthcare</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-eyebrow">FAQ</p>
+        <h2 class="section-title">Common Questions About Meta Ads</h2>
+      </div>
+
+      <div class="faq-list" data-aos="fade-up">
+
+        <div class="faq-item">
+          <button class="faq-question">What is a Meta Ads Specialist and why do I need one? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>A Meta Ads Specialist plans, builds and optimises Facebook &amp; Instagram campaigns end-to-end so you get qualified leads and sales at the lowest possible cost, without the trial-and-error of managing it in-house.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How much budget do I need to start? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Budgets vary by industry and goal, but most lead-generation accounts see stable results starting from a modest daily spend, which I help you plan based on your target cost per lead.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How soon will I see results? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Initial data typically comes in within the first week, with the account fully optimised for stable cost per lead within 2&ndash;4 weeks depending on industry and audience size.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you set up Meta Pixel and Conversion API? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes, precise Meta Pixel and Conversion API setup is part of every engagement so your campaigns optimise against accurate, reliable conversion signals.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Can you help reduce fake or low-quality leads? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes &mdash; through OTP verification, qualifying questions in lead forms, and audience refinement, fake and low-intent leads are significantly reduced.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you work with agencies as well as direct businesses? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes, I partner with agencies as a specialist Meta Ads resource, as well as working directly with in-house marketing teams and business owners.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Which industries do you have experience in? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Real estate, education, healthcare, travel, banking, beauty, finance and e-commerce, each with a tailored funnel and creative approach.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What reporting can I expect? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Regular performance reports covering cost per lead, ROAS, audience insights and clear next-step recommendations, in plain language.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you handle ad creatives too? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>I guide creative direction and messaging strategy for ads &mdash; including video, carousel and lead-form ads &mdash; aligned to what's converting in your industry.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How do we get started? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Reach out via the contact form, call or WhatsApp below, and we'll start with a short discovery call to understand your goals and current setup.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head light" data-aos="fade-up">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's Grow Your Business Together</h2>
+        <p class="section-sub">Have a project in mind? Reach out and let's talk about your goals.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card" data-aos="fade-up">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <a href="mailto:barkha.sharma@example.com">barkha.sharma@example.com</a>
+        </div>
+        <div class="contact-card" data-aos="fade-up" data-aos-delay="50">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <a href="tel:+911234567890">+91 12345 67890</a>
+        </div>
+        <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/911234567890" target="_blank" rel="noopener">Chat Now</a>
+        </div>
+        <div class="contact-card" data-aos="fade-up" data-aos-delay="150">
+          <i class="fa-brands fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <a href="#" target="_blank" rel="noopener">Connect</a>
+        </div>
+        <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <a href="#" target="_blank" rel="noopener">View Profile</a>
+        </div>
+        <div class="contact-card" data-aos="fade-up" data-aos-delay="250">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Location</h3>
+          <span>Noida, Delhi NCR, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark">BS</span>
+        <span class="brand-text">Barkha<em>Sharma</em></span>
+      </a>
+      <p>Meta Ads Specialist &amp; Performance Marketing Expert helping businesses turn ad spend into qualified leads.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/911234567890" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Services</h4>
+      <a href="#services">Lead Generation</a>
+      <a href="#services">Meta Ads Setup</a>
+      <a href="#services">Conversion Tracking</a>
+      <a href="#services">Campaign Optimization</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="year"></span> Barkha Sharma. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== FLOATING WHATSAPP BUTTON ===================== -->
+<a href="https://wa.me/911234567890" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- ===================== BACK TO TOP BUTTON ===================== -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
